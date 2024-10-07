@@ -1,0 +1,21 @@
+https://github.com/czechitas/csharp3-template/blob/main/ToDoList/01%20SettingUpProject.md
+
+dotnet new sln --name ToDoList
+
+
+dotnet new web --name ToDoList.WebApi --output src/ToDoList.WebApi
+
+
+dotnet new classlib --name ToDoList.Domain --output src/ToDoList.Domain
+
+
+dotnet new xunit --name ToDoList.Test --output tests/ToDoList.Test
+
+
+dotnet new classlib --name ToDoList.Persistency --output src/ToDoList.Persistency
+
+
+
+https://learn.microsoft.com/cs-cz/aspnet/core/?view=aspnetcore-8.0
+
+
