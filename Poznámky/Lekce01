@@ -1,0 +1,22 @@
+# Poznámky z lekce 01
+
+CTRL + (zvětším písmenka)
+
+dotnet --version
+dotnet --info
+
+dotnet new FizzBuzz
+dotnet build
+dotnet run
+dotnet watch
+dotnet test
+
+Solution = soubor projektů
+
+# .NET CLI:
+dotnet new solution --name FizzBuzz
+dotnet new console --name FizzBuzz
+# přidá projekt FizzBuzz do solution
+dotnet sln add FizzBuzz
+
+dotnet watch (interaktivní mód)

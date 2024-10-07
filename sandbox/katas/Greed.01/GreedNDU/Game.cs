@@ -6,7 +6,7 @@ public class Game
 
     public Game()
     {
-        System.Console.Write("Zadej počet kostek [1-6], kterými budeš házet: ");
+        System.Console.Write("Zadej počet kostek [1-n], kterými budeš házet: ");
         string pocetText = Console.ReadLine();
         int pocet = 0;
         if(int.TryParse(pocetText, out pocet))
